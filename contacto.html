@@ -64,7 +64,7 @@
         </ul>
             <!-- Formulario -->
             
-            <form>
+            <form class="was-validated">
                 <div class="form_container">
                 <!-- campo de texto -->
                 <div class="form_group">
@@ -74,16 +74,22 @@
                     <!--<span class="tooltiptext">Introduce tu nombre</span> mensaje del tooltip -->
                     <input class="border_color form_input form_margin_botton" type="text" placeholder=" &#xF007;" id="fname" name="fname" required max="40"
                     class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Introduce tu nombre">
-                <!--</div> -->
+                    <div class="valid-feedback">
+                        todo valido
+                    </div>
+                    <div class="invalid-feedback" class="was-validated">
+                      por favor introduzca un nombre
+                    </div>
+                    <!--</div> -->
                 <!-- campo de texto -->
-                <div class="form_group">
+                <div class="form_group" >
                     <label for="lname" class="form_label">Teléfono</label>
                 </div>
                 <!-- <div class="tooltip form_group"> cuadrado del tooltip -->
                 <!--    <span class="tooltiptext">Introduce tu télefono</span> mensaje del tooltip -->
                     <input class="border_color form_input form_margin_botton"  type="tel" placeholder=" &#xF095;" id="lname" name="lname" required max="15"
                     class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Introduce tu teléfono">
-                <!-- </div> -->
+                    <!-- </div> -->
                 <div class="form_group">
                 <!-- campo de texto -->
                     <label for="lname" class="form_label"><i>Email</i></label>
@@ -92,7 +98,7 @@
                     <!-- <span class="tooltiptext">Introduce tu email</span> <!-- mensaje del tooltip -->
                     <input class="border_color form_input form_margin_botton" type="email" placeholder=" &#xF199;" id="lname" name="lname" required max="30"
                     class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Introduce tu email">
-               <!--  </div> -->
+                    <!--  </div> -->
 
                 <!-- campo de select, selección de campos -->
                 <div class="form_group">
