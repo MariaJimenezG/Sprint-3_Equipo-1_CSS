@@ -18,8 +18,16 @@ nav li {
     position: absolute;
 }
 
+#player {
+    display: inline;
+}
+
 
 /*Define los atributos del texto y cómo se sombrea al pasar el ratón por encima*/
+
+.border iframe {
+    border: 0;
+}
 
 .width a {
     width: 150px
